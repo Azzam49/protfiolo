@@ -20,4 +20,33 @@ $(document).ready(function(){
         return false;
     });
 
+    // for better pictures layout
+    $('.project-area .button-group #btn1').trigger('click');
+
+    $('.project-area .grid .test-popup-link').magnificPopup({
+        type: 'image',
+        gallery: {enabled:true}
+      });
+
+    
+      //Owl-carousel
+
+      $('.site-main .about-area .owl-carousel').owlCarousel({
+          loop: true,
+          autoplay: true,
+          dots: true,
+
+          /* viewport from 0 to 544 have 1 item,
+          viewport from 544 and ++ have 2 items */
+          responsive:{
+              0: {
+                  items: 1
+              },
+              544: {
+                  items: 2
+              }
+          }
+
+      });
+
 });
