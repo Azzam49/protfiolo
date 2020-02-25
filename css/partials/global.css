@@ -87,3 +87,17 @@ button:hover
 .title-h1{
     font: normal bold 39px/40px var(--roboto);
 }
+
+
+/* for fixed navigation menu,
+need to understand the logic of this menu, video at 3:04:00*/
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
+}
