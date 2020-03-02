@@ -20,7 +20,39 @@
 
 /*End Loader*/
 
+/* start navigation 
 
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+ end navigation */ 
 
 
 
@@ -31,6 +63,8 @@
     padding-bottom: 2px !important;
     background-color: white;
  }
+ 
+
 
  .header_area .main-menu .nav-item .nav-link{
    
@@ -50,9 +84,7 @@
     
 
 }
-.header_area .main-menu .navbar-nav .active a:hover ,.header_area .main-menu .navbar-nav .active a:focus {
-    transition: .4s ease .25s;
-}
+
 
 
 
@@ -72,7 +104,7 @@ div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
     left: 0px;
     width: 100%;
     height: 2px;
-    background: gray;
+    background: rgb(58, 57, 57);
     content: "";
     opacity: 0;
     transition: all 0.3s;
@@ -95,6 +127,12 @@ div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
     opacity: 1;
     transform: translateY(0px);
 }
+
+
+.custom-nav{
+    box-shadow: none !important;
+}
+
 
 
 /*End Start navigation bar*/

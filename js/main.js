@@ -62,7 +62,7 @@ $(document).ready(function(){
 
 
       //sticky navigation menu
-/*
+/**/
       let nav_offset_top = $('.header_area').height() + 50;
 
       function navbarFixed(){
@@ -81,7 +81,7 @@ $(document).ready(function(){
       navbarFixed();
 
 
-*/
+
       //active navbar element 
 
       $(".navbar-nav .nav-item").on("click", function(){
