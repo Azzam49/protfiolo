@@ -90,7 +90,7 @@ button:hover
 
 
 /* for fixed navigation menu,
-need to understand the logic of this menu, video at 3:04:00*/
+need to understand the logic of this menu, video at 3:04:00
 .navbar_fixed{
     position: fixed;
     width: 100%;
@@ -99,5 +99,5 @@ need to understand the logic of this menu, video at 3:04:00*/
     background: #ffffff;
     box-shadow: var(--box-shadow);
     z-index: 999;
-    transition: background 1s ease;
-}
+    transition: background .1s ease;
+}*/
